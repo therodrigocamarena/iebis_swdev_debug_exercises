@@ -2,11 +2,6 @@ import java.util.Random;
 
 public class Main {
 
-    public static int generateRandomNumbers() {
-        Random random = new Random();
-        return random.nextInt(2);
-    }
-
     public static void main(String[] args) {
         WordAnalyzer wordAnalyzer = new WordAnalyzer("hello");
         System.out.println(wordAnalyzer.firstRepeatedCharacter());
@@ -22,5 +17,8 @@ public class Main {
 
         wordAnalyzer = new WordAnalyzer("mississippi!!!");
         System.out.println(wordAnalyzer.firstMultipleCharacter());
+
+        wordAnalyzer = new WordAnalyzer("aabbcdaaaabb");
+        System.out.println(wordAnalyzer.countRepeatedCharacters());
     }
 }
