@@ -7,6 +7,6 @@ public class Main {
                 d += 0.1;
             }
 
-            System.out.println("d es 1");
+            System.out.println("d is 1");
         }
 }
