@@ -63,7 +63,7 @@ public class WordAnalyzer
      * four such groups: ss, ss, pp and !!!.
      * @return the number of repeated character groups
      */
-    public int countRepeatedCharacters()
+    public int countGroupsRepeatedCharacters()
     {
         int c = 0;
         for (int i = 1; i < word.length() - 1; i++)
