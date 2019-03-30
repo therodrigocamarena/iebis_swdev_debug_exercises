@@ -7,10 +7,10 @@ public class Main {
 
         wordAnalyzer = new WordAnalyzer("comprehensive");
         System.out.println(wordAnalyzer.firstMultipleCharacter());          // expected output: e
-        System.out.println(wordAnalyzer.firstRepeatedCharacter());          // expected output: 0
+        System.out.println(wordAnalyzer.firstRepeatedCharacter());          // expected output:
 
         wordAnalyzer = new WordAnalyzer("development");
-        System.out.println(wordAnalyzer.firstRepeatedCharacter());          // expected output: 0
+        System.out.println(wordAnalyzer.firstRepeatedCharacter());          // expected output:
         System.out.println(wordAnalyzer.countGroupsRepeatedCharacters());   // expected output: 0
 
         wordAnalyzer = new WordAnalyzer("mississippi!!!");
