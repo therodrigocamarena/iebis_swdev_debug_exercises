@@ -2,21 +2,20 @@
 Source code to test debugging
 
 ## Instructions
-There are three exercises splitted in three branches of this repository:
-1. Exercise1
-2. Exercise2
-3. Exercise3
+First, **Fork** this project.
 
-You must find the bugs that appear in each branch by answering to the next questions.
-Fix the bugs if you can.
-Commit the code before checking out a different branch to avoid loosing the fixes to the code.
+There are three exercises splitted in three branches of this repository. You must switch branches to checkout the code of each exercise.
+Then, find the bugs that appear in each branch.
+Fix the bugs if you can and answer to the questions proposed below.
+Commit the code before checking out a different branch to avoid loosing the fixes that you have made to the code.
 
-To score you must:
+Once that you are done fixing bugs, **to score you must**:
 1. Switch to the master branch.
-2. Explain below in this README.md file the answer to each question and paste some code that you have used to solve them.
+2. Type below in this README.md file the answer to each question and paste some code that you have used to solve them.
 3. Commit the changes
 4. Push to your GitHub repository
 5. **Finally place a Pull Request so I can see your proposed answers**
+
 
 ## Exercises
 ### Exercise 1
@@ -30,6 +29,7 @@ For some reason, the methods are not working properly, sometimes they return the
 
 **Strategy**: Place breakpoints before the methods are executed, step into them and see what happens.
 
+
 ### Exercise 2
 In this code we are placing mines in a board game where we have several spaces that can be mined. 
 The boards can contain _Element_ objects, and since _Space_ and _Mine_ inherits from _Element_, the boards can contain this kind as well.
@@ -40,6 +40,7 @@ We have two boards of different size and place a different number of mines on ea
 #### Knowing that usually there are going to be more bombs than spaces in the final boards, how would you change the method _minningTheBoard_ to be more efficient?
 
 **Strategy**: Understand well what the code does. Use conditionals breakpoints.
+
 
 ### Exercise 3
 In this case this code looks really simple. When the "d" reaches the value 1.0, the program should end, but it never does.
