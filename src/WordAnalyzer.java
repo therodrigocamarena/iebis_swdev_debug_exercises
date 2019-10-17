@@ -86,7 +86,6 @@ public class WordAnalyzer
     public int countGroupsRepeatedCharacters()
     {
         int c = 0;
-        boolean flag = true;
         /**
          * Is not working properly because the for loop begins with i = 1 so it does not take care if there is a
          * repeated character between the first two characters.
